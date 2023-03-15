@@ -29,10 +29,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#">Awal</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Enlaces</a>
+                <a class="nav-link" href="#">Link</a>
               </li>
               <li class="nav-dropdown">
                 
@@ -59,24 +59,24 @@
             <div class="card-content ">
               <form> 
                 <div class="col-md-11">
-                  <label for="validationCustom01" class="form-label">Nombre <i class="fa-solid fa-user">_______________________________</i></label>
+                  <label for="validationCustom01" class="form-label">Nama <i class="fa-solid fa-user">_______________________________</i></label>
                   <input type="text" class="form-control" id="nombre" value="" required>
                   <div class="valid-feedback">
                     Looks good!
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <label for="validationCustom02" class="form-label">Edad <i class="fa-solid fa-cake-candles">___________________</i></label>
+                  <label for="validationCustom02" class="form-label">Umur <i class="fa-solid fa-cake-candles">___________________</i></label>
                   <input type="number" class="form-control" id="edad" value="Otto" required>
                   
                 </div>
                 <div class="col-md-11">
-                    <label for="validationCustom01" class="form-label">Dirreccion <i class="fa-solid fa-house"></i>_____________________________________</label>
+                    <label for="validationCustom01" class="form-label">Alamat <i class="fa-solid fa-house"></i>_____________________________________</label>
                     <input type="text" class="form-control" id="dirreccion" value="" required>
                     
                   </div>
                 <div class="col-md-11">
-                  <label for="validationCustomUsername" class="form-label">Correo <i class="fa-sharp fa-solid fa-user-group">__________________________________________</i></label>
+                  <label for="validationCustomUsername" class="form-label">Pos <i class="fa-sharp fa-solid fa-user-group">__________________________________________</i></label>
                   <div class="input-group has-validation">
                     <input type="email" class="form-control" id="email" aria-describedby="inputGroupPrepend" required>
                    
@@ -84,7 +84,7 @@
                 </div>
             </br>
                 <div class="col-lg-12 mt-5">
-                  <button class="btn btn-success" id="submit" onclick="AddData()">Agregar <i class="fa-solid fa-circle-plus"></i></button>
+                  <button class="btn btn-success" id="submit" onclick="AddData()">Tambah <i class="fa-solid fa-circle-plus"></i></button>
                   <button class="btn btn-primary" id="update">Actualizar <i class="fa-solid fa-file"></i></button>
                 </div>
               </form>
@@ -95,11 +95,11 @@
                 <table class="table table-bordered text-center" id="crudTable">
                     <thead>
                         <tr>
-                            <th>Nombre</th>
-                            <th>Edad</th>
-                            <th>Direccion</th>
-                            <th>Correo</th>
-                            <th>Acciones</th>
+                            <th>Nama</th>
+                            <th>Umur</th>
+                            <th>Alamat</th>
+                            <th>Pos</th>
+                            <th>Tindakan</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -110,10 +110,10 @@
 
         <style>
           body {
-            background-color: #825688b2;
+            background-color: white;
           }
           *{
-            color:rgb(16, 17, 17);
+            color: rgb(8, 189, 189);
           }
           #update{
               display:none;
